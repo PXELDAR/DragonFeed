@@ -13,7 +13,7 @@ WINDOW_HEIGHT = 400
 display_surface = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
 pygame.display.set_caption("Dragon Feed")
 
-# Set Clock
+# Clock
 FPS = 60
 clock = pygame.time.Clock() # Similar to fixed time
 
@@ -57,7 +57,6 @@ continue_rect = continue_text.get_rect()
 continue_rect.center = (WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2 + 32)
 
 # Sounds
-
 coin_sound = pygame.mixer.Sound("assets/coin.wav")
 miss_sound = pygame.mixer.Sound("assets/miss.wav")
 miss_sound.set_volume(0.1)
