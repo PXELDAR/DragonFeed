@@ -1,3 +1,3 @@
 # DragonFeed
 
-This is my first python tutorial project. I practiced working with fonts,sounds, images and simple game loop
+This is my python practice project. I practiced working with keyboard inputs, fonts, sounds, images and simple game loop
